@@ -1,0 +1,9 @@
+.left h2 {
+    display: inline-block;
+}
+.right ul li {
+    display: inline-block;
+}
+.right ul li{
+    margin: 30px 20px;
+}
