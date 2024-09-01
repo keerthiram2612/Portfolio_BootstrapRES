@@ -1,9 +1,31 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+  }
 .left h2 {
     display: inline-block;
+    font-size: 30px;
+    color: black;
 }
 .right ul li {
     display: inline-block;
+    font-size: 15px;
+    
 }
 .right ul li{
     margin: 30px 20px;
+}
+i{
+    color: white;
+}
+.resume{
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.right-li{
+    color: black;
 }
