@@ -43,8 +43,28 @@ i{
     justify-content: center;
     align-items: center;
     margin-top: 150px;
+    transition: ease-in 2s;
+    
   }
   .image img{
     margin-top: 30px;
     max-width: 450px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  @media (max-width:640px){
+     .image img{
+    max-width: 290px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+  }
+  .content{
+    margin-top: 0;
+  }
   }
