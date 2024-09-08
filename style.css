@@ -77,6 +77,16 @@ i{
     margin-bottom: 50px;
     
   }
+  .home-icons{
+    margin-top: 20px;
+  }
+  .home-icons img{
+    border: 1px solid black;
+    padding: 20px 20px;
+    width: 70px;
+    border-radius: 50%;
+   
+  }
   
   @media (max-width:640px){
      .image img{
