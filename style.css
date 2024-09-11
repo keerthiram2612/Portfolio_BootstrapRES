@@ -54,6 +54,7 @@ i{
     padding-top: 100px;
     text-align: center;
     max-width: 450px;
+    border-radius: 30px;
     
   }
   .skills img{
@@ -85,7 +86,7 @@ i{
     padding: 20px 20px;
     width: 70px;
     border-radius: 50%;
-   
+
   }
   
   @media (max-width:640px){
@@ -102,4 +103,8 @@ i{
   .content{
     margin-top: 0;
   }
+  .skills h3{
+    display: none;
+  }
+ 
   }
