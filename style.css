@@ -88,7 +88,24 @@ i{
     border-radius: 50%;
 
   }
-  
+  .experience{
+    color: white;
+    
+  }
+  .exp-class{
+    background-color: black;
+  }
+  .box-1{
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  .box-1 h4,p{
+    margin-left: 20px;
+  }
+  .duration{
+    margin-left: 20px;
+    text-decoration: underline;
+  }
   @media (max-width:640px){
      .image img{
     background-position: center;
@@ -103,8 +120,6 @@ i{
   .content{
     margin-top: 0;
   }
-  .skills h3{
-    display: none;
-  }
+ 
  
   }
