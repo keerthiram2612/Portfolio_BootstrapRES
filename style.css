@@ -98,14 +98,33 @@ i{
   .box-1{
     border: 1px solid white;
     border-radius: 20px;
+    text-align: justify;
   }
   .box-1 h4,p{
     margin-left: 20px;
   }
-  .duration{
-    margin-left: 20px;
-    text-decoration: underline;
+  .box-2{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: justify;
   }
+  .box-2 h4,p{
+    margin-left: 10px;
+  }
+  .duration{
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 6px 6px;
+    border-radius: 5px;
+  }
+  .box-2 p{
+    margin-top: 20px;
+  }
+  .box-1 p{
+    margin-top: 20px;
+  }
+
   @media (max-width:640px){
      .image img{
     background-position: center;
@@ -120,6 +139,23 @@ i{
   .content{
     margin-top: 0;
   }
- 
+  .box-1,.box-1 h4,p{
+    margin: 5px ;
+  }
+  .box-1 h4{
+     font-size: 16px;
+     margin-bottom: 20px;
+  }
+  .box-2 h4{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .duration{
+    margin: 5px;
+  
+  }
+  .content h1{
+    font-size: 30px;
+  }
  
   }
