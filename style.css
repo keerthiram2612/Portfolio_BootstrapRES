@@ -66,6 +66,10 @@ i{
     padding-top: 50px;
     border: 2px solid ;
     padding: 20px 20px;
+    transition: transform 0.5s ease;
+  }
+  .skills img:hover{
+    transform: rotateY(90deg);
   }
  
   .content p{
